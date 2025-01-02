@@ -1,4 +1,4 @@
-# AI Therapist Platform
+# Private AI Therapist
 ![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)
 ![Torch](https://img.shields.io/badge/torch-2.0.1-ee4c2c)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
@@ -27,8 +27,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
-
-Access the platform at `http://localhost:7860`
 
 ## Documentation
 
@@ -62,18 +60,11 @@ EMOTION_DETECTION_THRESHOLD=0.7
 RESPONSE_TEMPERATURE=0.8
 ```
 
-## Performance
-
-- Response Time: <500ms
-- Emotion Detection Accuracy: 94%
-- User Satisfaction Rate: 89%
-- Platform Uptime: 99.9%
-
 ## Security
 
-- End-to-end encryption
 - Local processing
 - Regular security audits
+- End-to-end encryption
 - GDPR compliant
 
 ## License
